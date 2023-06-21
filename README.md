@@ -4,8 +4,7 @@ A simple Python script to search and collect email addresses associated with a d
 
 ## Features ✨
 
-- Google search for email addresses associated with a domain
-- Beautiful Soup for web scraping
+- Number of requests can be modified to speed up the program and limit blockages
 - Random User-Agent selection to bypass request restrictions
 - Optional proxy support to avoid IP blocking
 - Save results to an output file
@@ -30,13 +29,13 @@ pip install beautifulsoup4 googlesearch-python requests fake_useragent
 
 ```bash
 git clone https://github.com/TomnzIT/mailScraper.git
-cd email-scrapper
+cd mailScraper
 ```
 
 2. Run the script with the required arguments:
 
 ```bash
-python email_scrapper.py -d example.com -o output.txt -n 10 -p proxies.txt
+python mailScraper.py -d example.com -o output.txt -n 10 -p proxies.txt
 ```
 
 ### Command-line arguments 📝

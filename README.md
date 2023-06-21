@@ -20,7 +20,7 @@ A simple Python script to search and collect email addresses associated with a d
 To install the required packages, run:
 
 ```bash
-pip install beautifulsoup4 googlesearch-python requests fake_useragent
+pip install -r requirements.txt
 ```
 
 ## Usage 🚀

@@ -1,0 +1,4 @@
+beautifulsoup4
+googlesearch-python
+requests
+fake_useragent

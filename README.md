@@ -17,12 +17,6 @@ A simple Python script to search and collect email addresses associated with a d
 - requests
 - fake_useragent
 
-To install the required packages, run:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage 🚀
 
 1. Clone the repository:
@@ -31,8 +25,13 @@ pip install -r requirements.txt
 git clone https://github.com/TomnzIT/mailScraper.git
 cd mailScraper
 ```
+2. Install the required packages:
 
-2. Run the script with the required arguments:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the script with the required arguments:
 
 ```bash
 python mailScraper.py -d example.com -o output.txt -n 10 -p proxies.txt
